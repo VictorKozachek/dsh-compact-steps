@@ -3,8 +3,6 @@
 DeepSeek Harness plugin that collapses the **session step journal** (the "Bash · …",
 "Think · …", "Read · …" rows) into a compact scrollable strip instead of a long wall of text.
 
-![before/after](docs/compact-steps.png)
-
 ## What it does
 
 - Finds the step journal by **content**, not by hashed CSS classes: a container whose
