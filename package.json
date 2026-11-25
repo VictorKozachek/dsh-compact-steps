@@ -1,6 +1,6 @@
 {
   "name": "dsh-compact-steps",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "DeepSeek Harness plugin: collapses the session step journal into a compact scrollable strip",
   "type": "module",
   "main": "lib/index.js",
@@ -10,15 +10,38 @@
     "./cordis.patch.yml": "./cordis.patch.yml",
     "./package.json": "./package.json"
   },
-  "files": ["lib/index.js", "lib/client.js", "cordis.patch.yml"],
-  "keywords": ["dsh", "dsh-plugin", "deepseek-harness", "ui", "chat", "compact"],
+  "files": [
+    "lib/index.js",
+    "lib/client.js",
+    "cordis.patch.yml"
+  ],
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "ui",
+    "chat",
+    "compact"
+  ],
   "license": "MIT",
-  "engines": { "node": ">=20" },
-  "peerDependencies": { "@deepseek-ai/cordis": "^4.0.2" },
+  "engines": {
+    "node": ">=20"
+  },
+  "peerDependencies": {
+    "@deepseek-ai/cordis": "^4.0.2"
+  },
   "author": "Victor Kozachek",
-  "repository": { "type": "git", "url": "git+https://github.com/VictorKozachek/dsh-compact-steps.git" },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VictorKozachek/dsh-compact-steps.git"
+  },
   "dsh": {
-    "bundle": { "patch": "./cordis.patch.yml" },
-    "client": { "platform": "web", "inject": [] }
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": []
+    }
   }
 }
